@@ -1,0 +1,123 @@
+.info-tab-content_b{
+  display: none;
+}
+
+.info-tab-content_c{
+  display: none;
+}
+
+/* ===========================
+  =    16. THEME DASHBOARD   =
+============================== */
+
+.wpbrigade-themes-badge {
+	position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #0073aa;
+	background-image: url('https://wpbrigade.com/wp-content/themes/wp-brigade-theme/img/army.png') !important;
+  background-position: no-repeat scroll center 24px;
+  background-repeat: no-repeat;
+  background-size: 74px 85px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  color: #78c8e6;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  height: 40px;
+  margin: 5px 0 0;
+  padding-top: 120px;
+  text-align: center;
+  text-rendering: optimizelegibility;
+  width: 150px;
+  text-decoration: none;
+}
+
+.theme_info_wrapper p span {
+	margin-left: 30px;
+}
+
+.theme_info_wrapper a.fame_social {
+	margin-left: 15px;
+}
+
+.info-tab-content {
+	margin: 50px 0px;
+}
+
+.theme_info_left {
+	width: 39%;
+	margin-right: 4%;
+	float: left;
+}
+
+.theme_info_right {
+	width: 57%;
+	float: left;
+}
+
+.theme_info_right img {
+	width: 100%;
+	box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+.theme_info{
+  display: none;
+}
+
+.theme_info.active{
+  display: block;
+}
+
+
+.theme_info h3 {
+	font-size: 17px;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.theme_info h4 {
+	font-size: 17px;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.theme_info .theme_link {
+	margin-bottom: 30px;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+.clearfix {
+    display: block;
+}
+/*=============================================>>>>>
+= dashboard updates =
+===============================================>>>>>*/
+.theme_info_column{
+  padding: 50px 0;
+}
+.about-wrap .nav-tab{
+  cursor: pointer;
+}
+/*= End of dashboard updates =*/
+/*=============================================<<<<<*/
+@media screen and (max-width:782px) {
+	.theme_info_left {
+    	width: 100%;
+    	margin-right: none;
+    }
+    .theme_info_right {
+    	width: 100%;
+    }
+}

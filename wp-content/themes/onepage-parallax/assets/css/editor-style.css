@@ -1,0 +1,254 @@
+/********************************************************************************************************************
+
+Table of Contents:
+
+1. TypoGraphy
+2. Post Formates
+3. RTL
+
+/*====================================
+=            1. TypoGraphy            =
+====================================*/
+html {
+    color: #46434c;
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a{
+	color: #3498db;
+}
+a:hover{
+	color: #9abc2d;
+	text-decoration: none;
+}
+code, kbd, pre, samp, tt{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #46434c;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 900;
+  line-height: 1.2;
+  color: inherit;
+}
+
+h1,
+.h1 {
+    font-size: 4.375rem;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+h2,
+.h2 {
+    font-size: 3.75rem;
+}
+
+h3,
+.h3 {
+    font-size: 2.25rem;
+}
+
+h4,
+.h4 {
+    font-size: 1.375rem;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+h5,
+.h5 {
+    font-size: 1.25rem;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+h6,
+.h6 {
+    font-size: 1rem;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.grayBox h4{
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 27px;
+  line-height: 27px;
+  font-weight: 900;
+  color: #000;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+.grayBox h4 span{
+  font-family: "Playfair Display", serif;
+  font-size: 23px;
+  line-height: 23px;
+  text-transform: none;
+  font-weight: normal;
+  letter-spacing: -1px;
+}
+p {
+    font-size: 16px;
+    line-height: 1.645;
+    color: #46434c;
+}
+a {
+    color: #3498db;
+}
+a:hover {
+    color: #9abc2d;
+    text-decoration: none;
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="number"], textarea, select {
+    margin-bottom: 1.875rem;
+    background-color: transparent;
+    border: 2px solid #363539;
+    font-size: 1.125rem;
+    padding: .75rem 1rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    width: 100%;
+    max-width: 500px;
+}
+input[type="submit"], input[type="reset"], input[type="button"], button {
+    padding: .5rem 1.3rem;
+    border-radius: 5px;
+    background-color: transparent;
+    font: bold 1rem "Source Sans Pro", sans-serif;
+    color: #9abc2d;
+    border: 2px solid #9abc2d;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+    cursor: pointer;
+}
+input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, button:hover {
+    color: #fff;
+    border-color: #9abc2d;
+    background-color: #9abc2d;
+}
+ul li{
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
+ol li {
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
+table,.mce-item-tabl{
+  border:0;;
+  border-collapse: collapse;
+}
+table td, table th,.mce-item-table td,.mce-item-table th {
+    padding: .75rem;
+    vertical-align: top;
+    border:0;
+    border-top: 1px solid #e9ecef;
+}
+blockquote {
+    color: #9dc02e;
+    max-width: 935px;
+    position: relative;
+    padding: 20px 50px;
+    background: #eee;
+    margin: 1rem auto;
+    width: 70%;
+}
+blockquote:before {
+    content: "\f10d";
+    top: -10px;
+    left: 23px;
+}
+blockquote:after {
+    content: "\f10e";
+    top: -10px;
+    right: 23px;
+}
+blockquote:before, blockquote:after {
+    position: absolute;
+    font: bold 1.7rem FontAwesome;
+    color: #9dc02e;
+}
+blockquote p {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0;
+}
+/*================================
+=        2. Post Formates        =
+================================*/
+.gallery-item{
+  margin: 0;
+}
+.gallery:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.gallery{
+  margin: 0 -10px;
+}
+.gallery .gallery-item{
+display: inline-block;
+vertical-align: top;
+margin-bottom: 20px;
+padding: 0 10px;
+text-align: left;
+}
+
+.gallery-item{
+  width: 50%;
+}
+  .gallery-columns-3 .gallery-item{
+    width: 33.333%;
+  }
+  .gallery-columns-1 .gallery-item{
+    width: 100%;
+  }
+  .gallery-columns-2 .gallery-item{
+    width: 50%;
+  }
+  .gallery-columns-4 .gallery-item{
+    width: 25%;
+  }
+  .gallery-columns-5 .gallery-item{
+    width: 20%;
+  }
+  .gallery-columns-6 .gallery-item{
+    width: 16.6667%;
+  }
+  .gallery-columns-7 .gallery-item{
+    width: 14.285%;
+  }
+  .gallery-columns-8 .gallery-item{
+    width: 12.5%;
+  }
+  .gallery-columns-9 .gallery-item{
+    width: 11.1111%;
+  }
+  .wp-caption .wp-caption-text, .gallery-caption {
+    color: #686868 !important;
+}
+.gallery-item .gallery-caption{
+  font-size: 13px;
+}
+/*=====  End of Post Formates  ======*/
+
+/*================================
+=        3. RTL                  =
+================================*/
+.rtl * {
+	text-align: right;
+}

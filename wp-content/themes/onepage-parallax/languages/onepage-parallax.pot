@@ -1,0 +1,1597 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: OnePage Parallax\n"
+"POT-Creation-Date: 2018-04-26 11:42+0500\n"
+"PO-Revision-Date: 2018-04-26 11:42+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:16
+msgid "404"
+msgstr ""
+
+#: 404.php:17
+msgid "Not Found"
+msgstr ""
+
+#: 404.php:18
+msgid "You are lost, But dont worry it happens to the best of us."
+msgstr ""
+
+#: archive.php:37
+msgid "Archive"
+msgstr ""
+
+#: author.php:54
+msgid "No posts by this author."
+msgstr ""
+
+#: comments.php:19
+msgid "Comments"
+msgstr ""
+
+#: comments.php:21
+msgid "Suggestions & feedback"
+msgstr ""
+
+#: comments.php:24 comments.php:46
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:26 comments.php:48
+msgid "&laquo; Older Comments"
+msgstr ""
+
+#: comments.php:27 comments.php:49
+msgid "Newer Comments &raquo;"
+msgstr ""
+
+#: comments.php:61
+msgid "Leave a comment"
+msgstr ""
+
+#: functions.php:221 inc/plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions.php:222 inc/plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: functions.php:223 inc/plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: functions.php:224 inc/plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: functions.php:225 inc/plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: functions.php:227 inc/plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: functions.php:232 inc/plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: functions.php:237 inc/plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: functions.php:242 inc/plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: functions.php:247 inc/plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: functions.php:252 inc/plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:257 inc/plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:262 inc/plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:267 inc/plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:271 inc/plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions.php:272 inc/plugin-activation.php:387
+#: inc/plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions.php:273 inc/plugin-activation.php:388
+#: inc/plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: functions.php:274 inc/plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: functions.php:275 inc/plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: functions.php:276 inc/plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: functions.php:277 inc/plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: functions.php:278 inc/plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: functions.php:279 inc/plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: header-home.php:73
+msgid ""
+"<h1>Branding & creative digital solution</h1><p>Our website is under "
+"construction. We`ll be here soon with our new awesome site, subscribe to be "
+"notified.</p><a href=\"#\" class=\"action-btn\">Action Button</a><a href=\"#"
+"\" class=\"fill-btn\">Action Button2</a>"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: header-home.php:134 inc/methods.php:165
+msgid "OnePage Parallax"
+msgstr ""
+
+#: inc/config.php:31
+#, php-format
+msgid "&copy; %1$s %2$s"
+msgstr ""
+
+#: inc/config.php:31
+msgid "Y"
+msgstr ""
+
+#: inc/config.php:33
+#, php-format
+msgid "Powerd by %1$s | Made with &#10084; by %2$s"
+msgstr ""
+
+#: inc/config.php:37
+msgid "Facebook Link :"
+msgstr ""
+
+#: inc/config.php:38
+msgid "Twitter Link :"
+msgstr ""
+
+#: inc/config.php:39
+msgid "Gmail Link :"
+msgstr ""
+
+#: inc/config.php:40
+msgid "RSS Link :"
+msgstr ""
+
+#: inc/config.php:41
+msgid "Pinterest Link :"
+msgstr ""
+
+#: inc/config.php:42
+msgid "Vimeo Link :"
+msgstr ""
+
+#: inc/config.php:51
+msgid "Enable Author Short Bio under post"
+msgstr ""
+
+#: inc/config.php:52 inc/config.php:65
+msgid "Enable Publish date of the post"
+msgstr ""
+
+#: inc/config.php:53 inc/config.php:66
+msgid "Enable Modifying date of the post"
+msgstr ""
+
+#: inc/config.php:54 inc/config.php:67
+msgid "Enable Categories of the post"
+msgstr ""
+
+#: inc/config.php:55
+msgid "Enable Comment Counter of the post"
+msgstr ""
+
+#: inc/config.php:56
+msgid "Enable Read More Button of the post"
+msgstr ""
+
+#: inc/config.php:68
+msgid "Enable Author Section under post"
+msgstr ""
+
+#: inc/config.php:69
+msgid "Enable Tags of the post"
+msgstr ""
+
+#: inc/config.php:70
+msgid "Enable Next Previous Post Button on the post"
+msgstr ""
+
+#: inc/config.php:79 inc/config.php:96
+msgid "Heading Keyword"
+msgstr ""
+
+#: inc/config.php:80
+msgid "Bold Note"
+msgstr ""
+
+#: inc/config.php:81 inc/config.php:97
+msgid "Short Note"
+msgstr ""
+
+#: inc/config.php:82 inc/config.php:134 inc/config.php:186
+msgid "Name"
+msgstr ""
+
+#: inc/config.php:83 inc/config.php:187
+msgid "Email"
+msgstr ""
+
+#: inc/config.php:84
+msgid "Subscribe"
+msgstr ""
+
+#: inc/config.php:86 inc/config.php:130 inc/config.php:131 inc/config.php:133
+#: inc/config.php:135 inc/customizer.php:782 inc/customizer.php:979
+#: inc/customizer.php:1152 inc/customizer.php:1301
+msgid "Title"
+msgstr ""
+
+#: inc/config.php:87 inc/config.php:137 inc/config.php:138 inc/config.php:139
+#: inc/config.php:140 inc/config.php:146 inc/customizer.php:802
+#: inc/customizer.php:994 inc/customizer.php:1172 inc/customizer.php:1314
+msgid "Subtitle"
+msgstr ""
+
+#: inc/config.php:88
+msgid "Number of post to Show"
+msgstr ""
+
+#: inc/config.php:89
+msgid "Character length to show under a post"
+msgstr ""
+
+#: inc/config.php:98
+msgid "Call us Text"
+msgstr ""
+
+#: inc/config.php:99
+msgid "Number"
+msgstr ""
+
+#: inc/config.php:100
+msgid "Button Text"
+msgstr ""
+
+#: inc/config.php:101
+msgid "Call Us"
+msgstr ""
+
+#: inc/config.php:104
+msgid "Provide number in digits only"
+msgstr ""
+
+#: inc/config.php:105
+msgid "Provide length in digits only"
+msgstr ""
+
+#: inc/config.php:109
+msgid "Buy pro version to add more."
+msgstr ""
+
+#: inc/config.php:110
+msgid "Buy pro version to add more about us section."
+msgstr ""
+
+#: inc/config.php:111
+msgid "Buy pro version to add more success section."
+msgstr ""
+
+#: inc/config.php:112
+msgid "Buy pro version to add more services section."
+msgstr ""
+
+#: inc/config.php:113
+msgid "Buy pro version to add more team members."
+msgstr ""
+
+#: inc/config.php:114
+msgid "Buy pro version to add more offering section."
+msgstr ""
+
+#: inc/config.php:116 inc/config.php:117 inc/config.php:118 inc/config.php:119
+msgid "Add New Item"
+msgstr ""
+
+#: inc/config.php:120
+msgid "Add New Team Member"
+msgstr ""
+
+#: inc/config.php:121
+msgid "Add New Offer"
+msgstr ""
+
+#: inc/config.php:132
+msgid "Number of Success"
+msgstr ""
+
+#: inc/config.php:141
+msgid "Designation"
+msgstr ""
+
+#: inc/config.php:142
+msgid "Price"
+msgstr ""
+
+#: inc/config.php:144
+msgid "Text"
+msgstr ""
+
+#: inc/config.php:145 inc/config.php:147 inc/config.php:148
+msgid "Description"
+msgstr ""
+
+#: inc/config.php:149
+msgid "Discription"
+msgstr ""
+
+#: inc/config.php:151 inc/config.php:152 inc/config.php:153 inc/config.php:154
+#: inc/config.php:155 inc/config.php:156
+#: inc/onepage-parallax-control/classes/class-repeater-control.php:647
+#: inc/onepage-parallax-control/classes/class-repeater-control.php:672
+msgid "Link"
+msgstr ""
+
+#: inc/config.php:158 inc/config.php:159 inc/config.php:160 inc/config.php:161
+#: inc/config.php:162 inc/config.php:163
+msgid "Shortcode"
+msgstr ""
+
+#: inc/config.php:177
+msgid "Get in touch"
+msgstr ""
+
+#: inc/config.php:178
+msgid "now"
+msgstr ""
+
+#: inc/config.php:179
+msgid "Call us"
+msgstr ""
+
+#: inc/config.php:180
+msgid "0044 0569 852 369"
+msgstr ""
+
+#: inc/config.php:181
+msgid "send us a message"
+msgstr ""
+
+#: inc/config.php:183
+msgid "Get our free"
+msgstr ""
+
+#: inc/config.php:184
+msgid "updates"
+msgstr ""
+
+#: inc/config.php:185
+msgid "Subscribe to our newsletter to receive cool stuff from us:"
+msgstr ""
+
+#: inc/config.php:188
+msgid "subscribe"
+msgstr ""
+
+#: inc/customizer.php:167
+msgid "Social Links"
+msgstr ""
+
+#: inc/customizer.php:210
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer.php:211
+msgid "This panel allows you to customize general setting of the theme."
+msgstr ""
+
+#: inc/customizer.php:221
+msgid "Global Settings"
+msgstr ""
+
+#: inc/customizer.php:233
+msgid "Pages Sidebar Position"
+msgstr ""
+
+#: inc/customizer.php:238 inc/customizer.php:256 inc/customizer.php:274
+#: inc/customizer.php:292 inc/customizer.php:310
+msgid "Right"
+msgstr ""
+
+#: inc/customizer.php:239 inc/customizer.php:257 inc/customizer.php:275
+#: inc/customizer.php:293 inc/customizer.php:311
+msgid "Left"
+msgstr ""
+
+#: inc/customizer.php:240 inc/customizer.php:258 inc/customizer.php:276
+#: inc/customizer.php:294 inc/customizer.php:312
+#: inc/onepage-parallax-control/classes/class-repeater-control.php:612
+msgid "None"
+msgstr ""
+
+#: inc/customizer.php:251
+msgid "Blog Sidebar Position"
+msgstr ""
+
+#: inc/customizer.php:269
+msgid "Search Sidebar Position"
+msgstr ""
+
+#: inc/customizer.php:287
+msgid "Author Page Sidebar Position"
+msgstr ""
+
+#: inc/customizer.php:305
+msgid "Single Post Sidebar Position"
+msgstr ""
+
+#: inc/customizer.php:324
+msgid "Scroll Up Icon"
+msgstr ""
+
+#: inc/customizer.php:329 inc/customizer.php:346 inc/customizer.php:363
+msgid "Enable"
+msgstr ""
+
+#: inc/customizer.php:330 inc/customizer.php:347 inc/customizer.php:364
+msgid "Disable"
+msgstr ""
+
+#: inc/customizer.php:341
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/customizer.php:358
+msgid "Animation On Sections"
+msgstr ""
+
+#: inc/customizer.php:375
+msgid "Header Settings"
+msgstr ""
+
+#: inc/customizer.php:388
+msgid "Title and Tagline Color"
+msgstr ""
+
+#: inc/customizer.php:402
+msgid "Header Background Color"
+msgstr ""
+
+#: inc/customizer.php:416
+msgid "Navigation Background Color"
+msgstr ""
+
+#: inc/customizer.php:430
+msgid "Navigation Color"
+msgstr ""
+
+#: inc/customizer.php:443
+msgid "Site Colors"
+msgstr ""
+
+#: inc/customizer.php:455
+msgid "Site Background Color"
+msgstr ""
+
+#: inc/customizer.php:469
+msgid "Footer Color"
+msgstr ""
+
+#: inc/customizer.php:483
+msgid "Footer Background Color"
+msgstr ""
+
+#: inc/customizer.php:496
+msgid "Blog Page Settings"
+msgstr ""
+
+#: inc/customizer.php:497
+msgid "Settings for the blog posts"
+msgstr ""
+
+#: inc/customizer.php:509
+msgid "Header Image for Blog Page."
+msgstr ""
+
+#: inc/customizer.php:565
+msgid "Show content type on blog"
+msgstr ""
+
+#: inc/customizer.php:568
+msgid "The Excerpt"
+msgstr ""
+
+#: inc/customizer.php:569
+msgid "Full Content"
+msgstr ""
+
+#: inc/customizer.php:580
+msgid "Single Post Settings"
+msgstr ""
+
+#: inc/customizer.php:581
+msgid "Settings for the single posts"
+msgstr ""
+
+#: inc/customizer.php:593
+msgid "Enable Header Image on single post."
+msgstr ""
+
+#: inc/customizer.php:602 template-parts/home/content-blog.php:13
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer.php:608
+msgid "Single Post Banner Title"
+msgstr ""
+
+#: inc/customizer.php:622
+msgid "Header Image for Single Post."
+msgstr ""
+
+#: inc/customizer.php:658
+msgid "Single Page Settings"
+msgstr ""
+
+#: inc/customizer.php:659
+msgid "Settings for the single page"
+msgstr ""
+
+#: inc/customizer.php:671
+msgid "Enable Header Image on single page."
+msgstr ""
+
+#: inc/customizer.php:685
+msgid "Header Image for Single Page."
+msgstr ""
+
+#: inc/customizer.php:697
+msgid "Section: Subscribe"
+msgstr ""
+
+#: inc/customizer.php:724 inc/customizer.php:816 inc/customizer.php:901
+#: inc/customizer.php:1013 inc/customizer.php:1119 inc/customizer.php:1186
+#: inc/customizer.php:1269 inc/customizer.php:1361 inc/customizer.php:1454
+msgid "Make this section visible"
+msgstr ""
+
+#: inc/customizer.php:736
+msgid "Mailchimp shortcode"
+msgstr ""
+
+#: inc/customizer.php:757
+msgid "Section: About"
+msgstr ""
+
+#: inc/customizer.php:758
+msgid "This panel allows you to customize About areas of the Theme."
+msgstr ""
+
+#: inc/customizer.php:770
+msgid "About Settings"
+msgstr ""
+
+#: inc/customizer.php:830
+msgid "About Content / Layout"
+msgstr ""
+
+#: inc/customizer.php:841
+msgid "Columns"
+msgstr ""
+
+#: inc/customizer.php:846 inc/customizer.php:1038
+msgid "2 Column"
+msgstr ""
+
+#: inc/customizer.php:847 inc/customizer.php:1039
+msgid "3 Column"
+msgstr ""
+
+#: inc/customizer.php:848 inc/customizer.php:1040
+msgid "4 Column"
+msgstr ""
+
+#: inc/customizer.php:857
+msgid "Item"
+msgstr ""
+
+#: inc/customizer.php:878
+msgid "Section: Success"
+msgstr ""
+
+#: inc/customizer.php:879
+msgid "This panel allows you to customize Success areas of the Theme."
+msgstr ""
+
+#: inc/customizer.php:889
+msgid "Success Settings"
+msgstr ""
+
+#: inc/customizer.php:932
+msgid "Success Content"
+msgstr ""
+
+#: inc/customizer.php:942
+msgid "Items"
+msgstr ""
+
+#: inc/customizer.php:960
+msgid "Section: Services"
+msgstr ""
+
+#: inc/customizer.php:961
+msgid "This panel allows you to customize Service areas of the Theme."
+msgstr ""
+
+#: inc/customizer.php:967
+msgid "Service Settings"
+msgstr ""
+
+#: inc/customizer.php:1022
+msgid "Services Content / Layout"
+msgstr ""
+
+#: inc/customizer.php:1049 template-parts/home/content-service.php:22
+msgid "Services"
+msgstr ""
+
+#: inc/customizer.php:1064
+msgid "Section: Get in Touch"
+msgstr ""
+
+#: inc/customizer.php:1135
+msgid "Section: Team"
+msgstr ""
+
+#: inc/customizer.php:1136
+msgid "This panel allows you to customize Team areas of the Theme."
+msgstr ""
+
+#: inc/customizer.php:1140
+msgid "Team Settings"
+msgstr ""
+
+#: inc/customizer.php:1147 template-parts/home/content-team.php:13
+msgid "Our team"
+msgstr ""
+
+#: inc/customizer.php:1166 template-parts/home/content-team.php:16
+msgid "We are amazing and we know it"
+msgstr ""
+
+#: inc/customizer.php:1195
+msgid "Team Layout"
+msgstr ""
+
+#: inc/customizer.php:1206 inc/methods.php:55
+msgid "Team Member"
+msgstr ""
+
+#: inc/customizer.php:1223
+msgid "Section: Blog"
+msgstr ""
+
+#: inc/customizer.php:1284
+msgid "Section: Footer"
+msgstr ""
+
+#: inc/customizer.php:1285
+msgid "This panel allows you to customize footer."
+msgstr ""
+
+#: inc/customizer.php:1290
+msgid "Contact Us Form"
+msgstr ""
+
+#: inc/customizer.php:1323
+msgid ""
+"\n"
+"\t  <ul class=\"list-unstyled\">\n"
+"\t      <li>\n"
+"\t          <h6>Address:</h6>\n"
+"\t          <p><strong>4699 Harvest Anchor Court, Beaukiss North Carolina, "
+"27070-1683, US,</strong></p>\n"
+"\t      </li>\n"
+"\t      <li>\n"
+"\t          <h6>Phone:</h6>\n"
+"\t          <a href=\"tel:\"><strong>(704) 806-9609</strong></a>\n"
+"\t      </li>\n"
+"\t      <li>\n"
+"\t          <h6>Email:</h6>\n"
+"\t          <a href=\"mailto:\"><strong>hey@aemon.com</strong></a>\n"
+"\t      </li>\n"
+"\t  </ul>"
+msgstr ""
+
+#: inc/customizer.php:1342
+msgid "Contact Editor"
+msgstr ""
+
+#: inc/customizer.php:1389
+msgid "Contact form shortcode"
+msgstr ""
+
+#: inc/customizer.php:1401
+msgid "Upgrade to Premium"
+msgstr ""
+
+#: inc/customizer.php:1411
+msgid "OnePage Parallax Premium Features"
+msgstr ""
+
+#: inc/customizer.php:1412
+#, php-format
+msgid ""
+"\n"
+"\t\t%1$sPriority Support%2$s\n"
+"\t\t%1$sDrag & drop section ordering%2$s\n"
+"\t\t%1$sShowcase your Portfolio%2$s\n"
+"\t\t%1$sShowcase your Services%2$s\n"
+"\t\t%1$sAdd Unlimited Team Members%2$s\n"
+"\t\t%1$sPricing Tables Section%2$s\n"
+"\t\t%1$sFooter Copyright Editor%2$s\n"
+"\t\t%1$sRemove Footer Link via Customizer%2$s\n"
+"\t\t%1$s... and much more %2$s"
+msgstr ""
+
+#: inc/customizer.php:1431
+#, php-format
+msgid "%1$s Buy OnePage Parallax Premium Now %2$s"
+msgstr ""
+
+#: inc/customizer.php:1443
+msgid "Section: Hero"
+msgstr ""
+
+#: inc/customizer.php:1467
+msgid "Select hero section type"
+msgstr ""
+
+#: inc/customizer.php:1472
+msgid "Use: Header image"
+msgstr ""
+
+#: inc/customizer.php:1473
+msgid "Use: Gradient with Header Image"
+msgstr ""
+
+#: inc/customizer.php:1474
+msgid "Use: Gradient with Colors Only"
+msgstr ""
+
+#: inc/customizer.php:1475
+msgid "Use: Shortcode"
+msgstr ""
+
+#: inc/customizer.php:1486
+msgid "Enable Parallex Effect"
+msgstr ""
+
+#: inc/customizer.php:1499
+msgid "Header Image Color Overlay"
+msgstr ""
+
+#: inc/customizer.php:1511
+msgid "Overlay Opecity"
+msgstr ""
+
+#: inc/customizer.php:1516
+msgid "0%"
+msgstr ""
+
+#: inc/customizer.php:1517
+msgid "10%"
+msgstr ""
+
+#: inc/customizer.php:1518
+msgid "20%"
+msgstr ""
+
+#: inc/customizer.php:1519
+msgid "30%"
+msgstr ""
+
+#: inc/customizer.php:1520
+msgid "40%"
+msgstr ""
+
+#: inc/customizer.php:1521
+msgid "50%"
+msgstr ""
+
+#: inc/customizer.php:1522
+msgid "60%"
+msgstr ""
+
+#: inc/customizer.php:1523
+msgid "70%"
+msgstr ""
+
+#: inc/customizer.php:1524
+msgid "80%"
+msgstr ""
+
+#: inc/customizer.php:1525
+msgid "90%"
+msgstr ""
+
+#: inc/customizer.php:1526
+msgid "100%"
+msgstr ""
+
+#: inc/customizer.php:1536
+msgid "Your shortcode"
+msgstr ""
+
+#: inc/customizer.php:1568
+msgid ""
+"<h1>Branding & creative digital solution</h1>\n"
+"\t\t\t\t\t\t\t\t\t\t<p>Our website is under construction. We`ll be here soon "
+"with our new awesome site, subscribe to be notified.</p>\n"
+"\t\t\t\t\t\t\t\t\t\t<a href=\"#\" class=\"action-btn\">Action Button</a>\n"
+"\t\t\t\t\t\t\t\t\t\t<a href=\"#\" class=\"fill-btn\">Action Button2</a>"
+msgstr ""
+
+#: inc/customizer.php:1576
+msgid "Editor for header"
+msgstr ""
+
+#: inc/dashboard.php:14
+#, php-format
+msgid "%s Dashboard"
+msgstr ""
+
+#: inc/dashboard.php:14
+#, php-format
+msgid "%s Theme"
+msgstr ""
+
+#: inc/dashboard.php:28
+#, php-format
+msgid "%1$1s - Version %2$2s"
+msgstr ""
+
+#: inc/dashboard.php:29
+msgid ""
+"Onepage Parallax is a Multipurpose OnePage WordPress theme can be used to "
+"build websites for Freelancers, Creative Agencies, Small Businesses, Product "
+"Showcase, Personal Portfolio, Selling Digital Goods."
+msgstr ""
+
+#: inc/dashboard.php:32
+msgid "Getting Started"
+msgstr ""
+
+#: inc/dashboard.php:41
+msgid "Installation Steps"
+msgstr ""
+
+#: inc/dashboard.php:42
+msgid "Step 1. "
+msgstr ""
+
+#: inc/dashboard.php:42
+msgid "Install Recommended Plugins"
+msgstr ""
+
+#: inc/dashboard.php:43
+msgid "Step 2. "
+msgstr ""
+
+#: inc/dashboard.php:43
+msgid "Import Demo Content"
+msgstr ""
+
+#: inc/dashboard.php:45
+msgid "Step 3. "
+msgstr ""
+
+#: inc/dashboard.php:45
+msgid "Happy Customizing"
+msgstr ""
+
+#: inc/dashboard.php:50
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/dashboard.php:51
+#, php-format
+msgid ""
+"Need any help to setup and configure %s? Please have a look at our "
+"documentations instructions."
+msgstr ""
+
+#: inc/dashboard.php:53
+msgid "Online Documentation"
+msgstr ""
+
+#: inc/dashboard.php:58
+msgid "Theme Support"
+msgstr ""
+
+#: inc/dashboard.php:59
+msgid ""
+"If there is something not in our Theme docs, contact us. Happy to help !!"
+msgstr ""
+
+#: inc/dashboard.php:61
+msgid "Create Theme Support Ticket"
+msgstr ""
+
+#: inc/methods.php:109
+msgid "Front Page Menu"
+msgstr ""
+
+#: inc/methods.php:110
+msgid "Sub Page Menu"
+msgstr ""
+
+#: inc/methods.php:134
+msgid "Default Header Image"
+msgstr ""
+
+#: inc/methods.php:209
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: inc/methods.php:299
+msgid "Be the First to comment."
+msgstr ""
+
+#: inc/methods.php:299
+msgid "1 comment"
+msgstr ""
+
+#: inc/methods.php:299
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: inc/methods.php:319
+msgid "Tags"
+msgstr ""
+
+#: inc/methods.php:369
+msgid "Sidebar"
+msgstr ""
+
+#: inc/methods.php:371
+msgid "The primary widget area"
+msgstr ""
+
+#: inc/methods.php:395
+msgid "&laquo;"
+msgstr ""
+
+#: inc/methods.php:396
+msgid "&raquo;"
+msgstr ""
+
+#: inc/methods.php:435
+msgid "Read More"
+msgstr ""
+
+#: inc/methods.php:600
+msgid "Your Message"
+msgstr ""
+
+#: inc/methods.php:615
+msgid "Your Name*"
+msgstr ""
+
+#: inc/methods.php:616
+msgid "Your Email*"
+msgstr ""
+
+#: inc/methods.php:617
+msgid "Your Website"
+msgstr ""
+
+#: inc/methods.php:793
+msgid "OnePage Parallax: Important Announcement"
+msgstr ""
+
+#: inc/methods.php:794
+#, php-format
+msgid ""
+"Hello! OnePage Parallax is updated to Font Awesome 5. You just need to "
+"update your Social Media Icon from %1$sCustomizer%2$s at least one time to "
+"use them. Thank you."
+msgstr ""
+
+#: inc/methods.php:796
+msgid "I've already done"
+msgstr ""
+
+#: inc/methods.php:797
+msgid "Later"
+msgstr ""
+
+#: inc/methods.php:798
+msgid "Never show again"
+msgstr ""
+
+#: inc/onepage-parallax-control/classes/class-repeater-control.php:66
+msgid "Cusomizer Repeater"
+msgstr ""
+
+#: inc/onepage-parallax-control/classes/class-repeater-control.php:333
+#: inc/onepage-parallax-control/classes/class-repeater-control.php:447
+msgid "Content Page"
+msgstr ""
+
+#: inc/onepage-parallax-control/classes/class-repeater-control.php:341
+#: inc/onepage-parallax-control/classes/class-repeater-control.php:455
+msgid "Show Title"
+msgstr ""
+
+#: inc/onepage-parallax-control/classes/class-repeater-control.php:349
+msgid "Show Link"
+msgstr ""
+
+#: inc/onepage-parallax-control/classes/class-repeater-control.php:357
+#: inc/onepage-parallax-control/classes/class-repeater-control.php:471
+msgid "Use Feature Image"
+msgstr ""
+
+#: inc/onepage-parallax-control/classes/class-repeater-control.php:375
+#: inc/onepage-parallax-control/classes/class-repeater-control.php:482
+msgid "Delete field"
+msgstr ""
+
+#: inc/onepage-parallax-control/classes/class-repeater-control.php:463
+msgid "Show link"
+msgstr ""
+
+#: inc/onepage-parallax-control/classes/class-repeater-control.php:564
+#: inc/onepage-parallax-control/classes/class-repeater-control.php:610
+msgid "Icon"
+msgstr ""
+
+#: inc/onepage-parallax-control/classes/class-repeater-control.php:569
+#, php-format
+msgid ""
+"Note: Some icons may not be displayed here. You can see the full list of "
+"icons at %1$s"
+msgstr ""
+
+#: inc/onepage-parallax-control/classes/class-repeater-control.php:570
+msgid "http://fontawesome.io/icons/"
+msgstr ""
+
+#: inc/onepage-parallax-control/classes/class-repeater-control.php:591
+#: inc/onepage-parallax-control/classes/class-repeater-control.php:611
+msgid "Image"
+msgstr ""
+
+#: inc/onepage-parallax-control/classes/class-repeater-control.php:595
+msgid "Upload Image"
+msgstr ""
+
+#: inc/onepage-parallax-control/classes/class-repeater-control.php:607
+msgid "Image type"
+msgstr ""
+
+#: inc/onepage-parallax-control/classes/class-repeater-control.php:625
+msgid "Social icons"
+msgstr ""
+
+#: inc/onepage-parallax-control/classes/class-repeater-control.php:650
+#: inc/onepage-parallax-control/classes/class-repeater-control.php:677
+msgid "X"
+msgstr ""
+
+#: inc/onepage-parallax-control/classes/class-repeater-control.php:655
+#: inc/onepage-parallax-control/classes/class-repeater-control.php:686
+msgid "Add icon"
+msgstr ""
+
+#: inc/plugin-activation.php:386 inc/plugin-activation.php:827
+#: inc/plugin-activation.php:2533 inc/plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: inc/plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/plugin-activation.php:934 inc/plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/plugin-activation.php:1121 inc/plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: inc/plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: inc/plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: inc/plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: inc/plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: inc/plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: inc/plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: inc/plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: inc/plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: inc/plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: inc/plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: inc/plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: inc/plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: inc/plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: inc/plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: inc/plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/plugin-activation.php:3509 inc/plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: inc/plugin-activation.php:3509 inc/plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: inc/plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/widgets/recent-post.php:18
+msgid "Site&#8217;s Most Recent Posts."
+msgstr ""
+
+#: inc/widgets/recent-post.php:20
+msgid "OnePage Parallax: Thumbnails Posts"
+msgstr ""
+
+#: inc/widgets/recent-post.php:56 inc/widgets/recent-post.php:156
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/widgets/recent-post.php:160
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/recent-post.php:165
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/widgets/recent-post.php:171
+msgid "Display post date?"
+msgstr ""
+
+#: search.php:40
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/home/content-about.php:23
+msgid "About Us"
+msgstr ""
+
+#: template-parts/home/content-about.php:24
+msgid "Who are we and what are we doing"
+msgstr ""
+
+#: template-parts/home/content-about.php:87
+msgid "find out more"
+msgstr ""
+
+#: template-parts/home/content-blog.php:14
+msgid "Our random ramblings"
+msgstr ""
+
+#: template-parts/home/content-blog.php:23
+msgid "4"
+msgstr ""
+
+#: template-parts/home/content-blog.php:24
+msgid "300"
+msgstr ""
+
+#: template-parts/home/content-blog.php:62
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: template-parts/home/content-service.php:23
+msgid "What can we help you with?"
+msgstr ""
+
+#: template-parts/home/content-touch.php:36
+msgid "Or"
+msgstr ""
+
+#: template-parts/page/content-author.php:61
+#: template-parts/page/content-page.php:25
+#: template-parts/post/content-audio.php:85
+#: template-parts/post/content-gallery.php:67
+#: template-parts/post/content-image.php:68
+#: template-parts/post/content-video.php:86 template-parts/post/content.php:77
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: template-parts/post/content-gallery.php:64
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/post/content-none.php:16 template-parts/search-none.php:13
+msgid "No matches"
+msgstr ""
+
+#: template-parts/post/content-none.php:20 template-parts/search-none.php:17
+msgid "Please try again to find what you search for."
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid ""
+"https://wpbrigade.com/wordpress/themes/onepage-parallax/?"
+"utm_source=wordpress-repo&utm_campaign=onepage-parallax&utm_medium=free-theme"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"OnePage Parallax is a single-page theme that displays all the essential "
+"features of your website on the home page. It makes easy for the users to "
+"get all the required information within a single page. OnePage Parallax is a "
+"professional and outstanding responsive business WordPress Theme. OnePage "
+"Parallax was built keeping the simplicity of design in mind."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WPBrigade"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.wpbrigade.com/"
+msgstr ""

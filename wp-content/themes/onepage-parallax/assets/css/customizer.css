@@ -1,0 +1,126 @@
+#customize-control-onepage_parallax_premium_features .customizer-group-heading-message span {
+    display: block;
+    margin-top: 7px;
+}
+
+#customize-control-onepage_parallax_premium_features .customizer-group-heading-message span:before {
+    content: "\f147";
+    color: #7ac143;
+    display: inline-block;
+    font: 400 20px/17px dashicons;
+    margin: 3px 4px 3px 0;
+    vertical-align: top;
+}
+
+#customize-control-onepage_parallax_premium_links .customizer-group-heading-message .onepage-parallax-premium-buy-button{
+    background: #7ac143 none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #ffffff;
+    display: block;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#customize-control-onepage_parallax_premium_links .customizer-group-heading-message .onepage-parallax-premium-buy-button:hover {
+    background: #90D75A;
+}
+#customize-control-onepage_parallax_premium_links .customizer-group-heading-message .onepage-parallax-premium-buy-button a{
+  text-decoration: none;
+}
+#accordion-section-onepage_parallax_pro .accordion-section-title,
+#accordion-section-onepage_parallax_pro .accordion-section-title::before,
+#customize-control-onepage_parallax_pro .accordion-section-title:hover ,
+#customize-control-onepage_parallax_pro .accordion-section-title::after{
+    background: #9abc2d none repeat scroll 0 0 !important;
+    color: #fff;
+}
+
+#accordion-section-themes+#accordion-section-onepage_parallax_pro h3{
+  color: #fff;
+}
+#accordion-section-themes+#accordion-section-onepage_parallax_pro .accordion-section-title{
+	border-left-color: #9abc2d;
+}
+#accordion-section-themes+#accordion-section-onepage_parallax_pro .accordion-section-title:after{
+	color: #fff;
+}
+#accordion-section-themes+#accordion-section-onepage_parallax_pro:hover .accordion-section-title{
+  background-color: #90D75A !important;
+}
+#accordion-section-themes+#accordion-section-onepage_parallax_pro:hover .accordion-section-title{
+	border-left-color: #90D75A
+}
+.iconpicker-input{
+  padding: 3px 10px;
+height: auto;
+margin-bottom: 3px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+color: #fff;
+display: inline-block;
+background: #9dc02e;
+border: 0;
+outline: none;
+-webkit-transition: 0.33s ease-in-out;
+-moz-transition: 0.33s ease-in-out;
+-o-transition: 0.33s ease-in-out;
+transition: 0.33s ease-in-out;
+/* background-color: transparent; */
+box-shadow: inset 0 0 0 0 #363539;
+width: 100%;
+box-sizing: border-box;
+color: #fff;
+padding: 9px 9px 10px 41px;
+font-size: 15px;
+line-height: 1.5;
+text-align: center;
+}
+.icp-container .input-group-addon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 3px;
+    font-size: 28px;
+    color: #fff;
+    line-height: 36px;
+    width: 34px;
+    text-align: center;
+    border-right: 2px solid #fff;
+}
+.social-repeater-add-social-item{
+  padding: 3px 10px;
+height: auto;
+margin-bottom: 3px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+color: #fff;
+display: inline-block;
+background: #9dc02e;
+border: 0;
+outline: none;
+-webkit-transition: 0.33s ease-in-out;
+-moz-transition: 0.33s ease-in-out;
+-o-transition: 0.33s ease-in-out;
+transition: 0.33s ease-in-out;
+/* background-color: transparent; */
+box-shadow: inset 0 0 0 0 #363539;
+box-sizing: border-box;
+color: #fff;
+padding: 3px 10px;
+font-size: 15px;
+line-height: 1.5;
+text-align: center;
+}
+.iconpicker-input:hover,
+.social-repeater-add-social-item:hover {
+    box-shadow: inset 0 -67px 0 0 #363539;
+}
